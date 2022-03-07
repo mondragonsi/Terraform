@@ -15,6 +15,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "RG-First_Resource_Group"
+  name     = "RG-First_RG"
   location = "canadacentral"
 }
