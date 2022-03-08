@@ -15,6 +15,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "RG-First_RG-bruno"
+  name     = "RG-SQLSERVER_LAB"
   location = "canadacentral"
 }
